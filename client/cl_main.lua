@@ -1,6 +1,4 @@
-local ragdoll = false
-
-CreateThread(function() 	
+Citizen.CreateThread(function() 	
     while true do 		
         Wait(0) 		
         if IsControlJustReleased(0, Config.Ragdoll) then	
