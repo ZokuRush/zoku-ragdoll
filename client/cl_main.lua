@@ -1,4 +1,4 @@
-Citizen.CreateThread(function() 	
+CreateThread(function() 	
     while true do 		
         Wait(0) 		
         if IsControlPressed(0, Config.Ragdoll) then	
